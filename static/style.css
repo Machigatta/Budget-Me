@@ -1,0 +1,25 @@
+.m-logo > img{
+    height: 50px;
+    float: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-header {
+    background-color: rgb(78, 78, 78);
+}
+
+header .button {
+    background: unset !important;
+    color: var(--header-back-color) !important;
+}
+header .button * {
+    color: var(--header-back-color) !important;
+}
+
+header .button.router-link-exact-active {
+    background: var(--header-back-color) !important;
+}
+
+header .button.router-link-exact-active, header .button.router-link-exact-active * { 
+    color: var(--header-fore-color) !important;
+}
